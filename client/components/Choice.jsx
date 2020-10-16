@@ -53,7 +53,7 @@ class Choice extends React.Component {
                     </div>
                 
                 <div>Total/24h: {this.state.total}</div>
-                <button className="btn btn-primary" type="submit" onClick={this.handleEventOnClick}>Proceed</button>
+                <button className="btn-btn-primary" type="submit" onClick={this.handleEventOnClick}>Proceed</button>
             </div>
         )
     }
