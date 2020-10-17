@@ -189,32 +189,26 @@ body {
       position: relative;
       left: 455px;
       top: -37px;
-      background-color:#2733dd ;
+      background-color:#007bff;
       cursor: pointer;
      border: none;
       border-radius: 3px;
       font-family: 'PT Serif', sans-serif;
       color: #d1dde0;
     }
-    .btn-btn-primary{
-      background-color: rgb(68, 71, 238);
-      height: 85px;
-      width: 300px;
-      position: relative;
-      left: 600px;
-      top: 20px;
-      border-color: black;
-
-    }
+  
     .reservation{
-      position: relative;
-      left: 600px;
-      top: 150px;
-      border-style:solid;
-     border-color:#9494cf;
-      border-width:5px;
       width: 400px;
       height: 400px;
-      background-color:rgb(199, 194, 194)
+      margin-top: 10px;
+    margin-left: 10px;
     }
-    
+    .total-button{
+      border-style:solid;
+      border-color:#9494cf;
+       border-width:5px;
+       display: grid;
+       grid-template-rows: auto auto;
+       font-weight: bold;
+       width: 250px;
+    }

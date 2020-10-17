@@ -51,9 +51,10 @@ class Choice extends React.Component {
                     <div className="bike-data">{this.props.bike.price}</div>
                     <div className="bike-data">{this.props.bike.model}</div>
                     </div>
-                
-                <div>Total/24h: {this.state.total}</div>
-                <button className="btn-btn-primary" type="submit" onClick={this.handleEventOnClick}>Proceed</button>
+                <br />
+                <div className="total-button">Total/24h: {this.state.total}</div>
+               
+                <button className="btn btn-primary" type="submit" onClick={this.handleEventOnClick}>Proceed</button>
             </div>
         )
     }

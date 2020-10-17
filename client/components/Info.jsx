@@ -42,7 +42,7 @@ class Info extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className = "choose-bike">
 			
 			<h1>Your information</h1>
 			Use the following form to complete your reservation.<br/><br/>
